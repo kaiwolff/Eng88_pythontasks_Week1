@@ -56,7 +56,7 @@ def positive_integer(var):
 
 
 ### 3 - as a user I should only be able to guess 3 times before a new number is generated
-As these stories tie in the same code block as the previous user story, I have included the relevant code below. The if statements are similar to how they would be for User Story 1, except that I am adding the contingencies for too low or too high guesses. The variables guess_counter and overall_guesses iterated
+As these stories tie in the same code block as the previous user story, I have included the relevant code below. The if statements are similar to how they would be for User Story 1, except that I am adding the contingencies for too low or too high guesses. The variables guess_counter and overall_guesse go up once the guess has been evaluated. overall_guesses and win_counter are used in later user stories.
 
 ```
     if guess == target:
