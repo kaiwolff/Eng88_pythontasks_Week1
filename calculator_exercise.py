@@ -1,6 +1,5 @@
 class Calculator:
     #made them static methods so that I don't have to create an object.
-    @staticmethod
     def add(value1,value2) : return value1 + value2
 
     def subtract(value1, value2): return value1 - value2
@@ -24,6 +23,8 @@ class Calculator:
 
 
 #Test Cases
+my_calc = Calculator()
+
 print(Calculator.add(1,1))
 print(Calculator.subtract(1,1))
 print(Calculator.multiply(1,2))

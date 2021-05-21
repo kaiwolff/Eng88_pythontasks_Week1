@@ -4,18 +4,21 @@
 #
 # NOTE -> Must be in class and method format
 
-#start by going through values from 1 to 100. Note the range has to be 101 as the last value isn't printed
+class FizzBuzz():
 
-for i in range(1,101):
-    #set up conditions. Priorities are:
-    # 1. Fizzbuzz, as we want to print neither fizz nor buzz, but a combo
-    # 2. is it it fizz or buzz, as we don't want to print hte number if it fizzes or buzzes
-    # 3. print the number if no conditions met
-    if i % 3 == 0 and i % 5 == 0:
-        print("FizzBuzz")
-    elif i % 3 == 0:#no fizzbuzz, check for fizz
-        print("Fizz")
-    elif i % 5 == 0: #No fizzbuzz, no fizz, check for buzz
-        print("Buzz")
-    else: #if nothign else print the number
-        print(i)
+    #made it a static method initially as this means I can call the method without instantiating
+    def fizz_buzz_checker(self, max_val):
+        #Takes in a maximum value, and will print everything from one up to an including that value. If Fizz, Buzz or Fizzbuzz criteria are fullfilled, returns that statement
+        for i in range(101):
+            if i % 3 == 0 and i % 5 == 0: #Check for FizzBuzz
+                print("FizzBuzz")
+            elif i % 3 == 0:#no fizzbuzz, check for fizz
+                print("Fizz")
+            elif i % 5 == 0: #No fizzbuzz, no fizz, check for buzz
+                print("Buzz")
+            else: #if nothing else return the number
+                print(i)
+
+# test for max_val = 100
+my_fizzbuzz = FizzBuzz()
+my_fizzbuzz.fizz_buzz_checker(100)
