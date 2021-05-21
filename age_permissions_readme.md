@@ -1,4 +1,4 @@
-#age_permissions Readme
+# age_permissions Readme
 
 This program prompts the user to let us know their age. In order to be continuous, I put the main body in a while loop that will be broken if the user types "exit" when prompted.
 
@@ -50,7 +50,7 @@ print("Exiting...")
 ```
 
 
-####The check_permissions function
+#### The check_permissions function
 
 With the variables ```age``` and ```can_drive```, we run through a series of checks, and return the appropriate response:
 
