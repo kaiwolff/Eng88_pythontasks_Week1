@@ -22,7 +22,7 @@ while True:
     #option to quit
     if age.lower() == "exit":
         break
-    if age.isdigit() and int(age) >= 16:
+    if age.isdigit() and int(age) >= 17:#17 for full driver's licence. Formerly had htis set to 16 by mistake.
         driving_licence = input("Thank you. And do you have a driving licence? (y/n) ")
         if driving_licence.lower() == "y":
             can_drive = True

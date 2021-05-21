@@ -10,7 +10,7 @@ rules of what the program is supose to do are followed,see bellow
 age = 19
 driver_licence = True
 
-###Statements
+###Statements (Depending on circumstances)
 
 - You can vote and drivre
 - You can vote
