@@ -20,7 +20,7 @@ for i in range(1,101):
 ```
 Note that placing Fizzbuzz as the first if statement ensures no duplicate printouts for FizzBuzz numbers. I initially only used printouts, and haven't yet packaged the logic into a class and method format.
 
-###Second Iteration
+### Second Iteration
 
 I have now packaged the logic in a method called ```fizz_buzz_checker```. Given a desired range, it will give everythign from 1 to that number, up to and including the value given:
 
