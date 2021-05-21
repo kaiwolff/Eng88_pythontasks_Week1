@@ -71,7 +71,7 @@ while True:
         overall_guesses += 1
 
     #check number of guesses
-    if guess_counter >= 3
+    if guess_counter >= 3:
         print(f"Bad Luck, unfortunately you are out of guesses. The number was {target}")
         game_over = True
         loss_counter += 1
