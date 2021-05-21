@@ -9,7 +9,7 @@ class FizzBuzz():
     #made it a static method initially as this means I can call the method without instantiating
     def fizz_buzz_checker(self, max_val):
         #Takes in a maximum value, and will print everything from one up to an including that value. If Fizz, Buzz or Fizzbuzz criteria are fullfilled, returns that statement
-        for i in range(101):
+        for i in range((max_val + 1)):
             if i % 3 == 0 and i % 5 == 0: #Check for FizzBuzz
                 print("FizzBuzz")
             elif i % 3 == 0:#no fizzbuzz, check for fizz
