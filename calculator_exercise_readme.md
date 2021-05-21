@@ -77,7 +77,8 @@ class Calculator:
 
 For the test cases, I now need to instantiate a Calculator object, and then call the methods through this object:
 
-```my_calc = Calculator()
+```
+my_calc = Calculator()
 
 print(my_calc.add(1,1))
 print(my_calc.subtract(1,1))
